@@ -46,7 +46,7 @@ public class TestBase {
 			{
 				//firefox code here
 				System.setProperty("webdriver.edge.driver",
-						"C:\\Users\\002YUF744\\IdeaProjects\\CucumberFrameworkProject\\BrowserDriver\\msedgedriver.exe");
+						"C:\\Users\\rajam\\drivers\\msedgedriver.exe");
 				driver=new EdgeDriver();
 				driver.manage().window().maximize();
 			}
